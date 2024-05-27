@@ -23,7 +23,7 @@ def main():
             # Embed the Power BI dashboard with sandbox restrictions
             power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiZDVmYTdmYjctOWYxMy00YjRlLTk4OTUtOTQyYzc5YzA5ZWI5IiwidCI6ImI0YTc0NjQyLWFkOTMtNGQ1Ni1iOWVjLWU2YzRmZTA4MGE3ZSIsImMiOjN9"
             components.html(f'''
-                <iframe src="{power_bi_url}" width="800" height="600" sandbox="allow-scripts allow-same-origin"></iframe>
+                <iframe src="{power_bi_url}" width="900" height="600" sandbox="allow-scripts allow-same-origin"></iframe>
             ''', height=600)
         else:
             st.error("Incorrect password. Please try again.")
